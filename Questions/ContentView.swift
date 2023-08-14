@@ -13,7 +13,8 @@ struct ContentView: View {
             VStack{
                 Text("Welcome to captcha ultimate!")
                     .font(.title)
-                Text("in this test we will determine if you are truly a person")
+                Text("in this test we will determine if you are a real person")
+                    .padding(.horizontal)
                     
                 NavigationLink(destination:question1()){
                     Text("Start")
